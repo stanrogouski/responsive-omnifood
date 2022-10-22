@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
-
+  position: relative;
   /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
@@ -25,7 +25,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -64,6 +64,9 @@
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
 }
+
+
+
 
 .hero {
   max-width: 130rem;
@@ -625,4 +628,22 @@
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
